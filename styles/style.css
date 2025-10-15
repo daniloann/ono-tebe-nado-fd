@@ -50,7 +50,7 @@
   align-items: flex-start;
   justify-self: end;
   text-align: left;
-  max-width: 240px;
+  width: 240px;
   border: 1px;
   gap: 4.3px;
   font-style: normal;
@@ -279,6 +279,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   margin-top: 180px;
+  padding: 0 50px 82px 50px;
 }
 .footer_address {
   justify-content: flex-start;
@@ -286,7 +287,6 @@
   align-self: flex-start;
   justify-self: start;
   width: 264.57px;
-  margin-left: 50px;
 }
 .footer_menu {
   display: flex;
@@ -310,7 +310,6 @@
   list-style-type: none;
   gap:48px;
   justify-content: flex-end;
-  padding-right: 50px;
   align-self: flex-start;
   align-items: flex-start;
   margin: 0;
